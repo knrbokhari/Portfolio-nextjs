@@ -1,18 +1,19 @@
 import Image from 'next/image';
 import React from 'react';
-import ecommerce from '../public/assets/projects/ecom.png';
+import ecommerce from '../public/assets/bg.avif';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
 const netflix = () => {
   return (
     <div className='w-full'>
-      <div className='w-screen h-[50vh] relative'>
+      <div className='w-screen- h-[50vh] relative'>
         <div className='absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10' />
         <Image
           className='absolute z-1'
           layout='fill'
           objectFit='cover'
+          width="100%"
           src={ecommerce}
           alt='/'
         />
@@ -24,30 +25,29 @@ const netflix = () => {
 
       <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 py-8'>
         <div className='col-span-4'>
-          <p>Project</p>
-          <h2>Overview</h2>
-          <p>
-            <ul>
-                <li>
-                    This website has jwt implemented, email, password, authentication, and a stripe payment system. It has an error log system that stores in MongoDB.
-                </li>
-                <li>
-                    Users can add items to the cart, change cart quantity, and remove items from the card. it gives users a notification when the order is shipped.
-                </li>
-                <li>
-                    Admin can update product status and restock, add, and delete products. When users order products then the admin gets a notification from it.
-                </li>
-            </ul>
-          </p>
+            <p>Project</p>
+            <h2>Overview</h2>
+            <div>
+                <p className='text-gray-600 py-2 flex items-center'>
+                    <RiRadioButtonFill className='pr-1' /> This website has jwt implemented, email, password, authentication, and a stripe payment system. It has an error log system that stores in MongoDB.
+                </p>
+                <p className='text-gray-600 py-2 flex items-center'>
+                    <RiRadioButtonFill className='pr-1' />Users can add items to the cart, change cart quantity, and remove items from the card. it gives users a notification when the order is shipped.
+                </p>
+                <p className='text-gray-600 py-2 flex items-center'>
+                    <RiRadioButtonFill className='pr-1' /> Admin can update product status and restock, add, and delete products. When users order products then the admin gets a notification from it.
+                </p>
+            </div>
+            
           <a
-            href='https://github.com/fireclint/netflix-react-tailwind'
+            href='https://github.com/knrbokhari/mern-ecommerce'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4 mr-8'>Code</button>
           </a>
           <a
-            href='https://fireclint.github.io/netflix-react-tailwind/'
+            href='https://quiet-cat-ecom.netlify.app/'
             target='_blank'
             rel='noreferrer'
           >
@@ -62,16 +62,28 @@ const netflix = () => {
                 <RiRadioButtonFill className='pr-1' /> React
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Tailwind
+                <RiRadioButtonFill className='pr-1' /> Redux
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Javascript
+                <RiRadioButtonFill className='pr-1' /> NodeJS
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Firebase
+                <RiRadioButtonFill className='pr-1' /> ExpressJS
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> IMDB API
+                <RiRadioButtonFill className='pr-1' /> MongoDB
+              </p>
+              <p className='text-gray-600 py-2 flex items-center'>
+                <RiRadioButtonFill className='pr-1' /> Jest
+              </p>
+              <p className='text-gray-600 py-2 flex items-center'>
+                <RiRadioButtonFill className='pr-1' /> JWT
+              </p>
+              <p className='text-gray-600 py-2 flex items-center'>
+                <RiRadioButtonFill className='pr-1' /> Axios
+              </p>
+              <p className='text-gray-600 py-2 flex items-center'>
+                <RiRadioButtonFill className='pr-1' /> Bootstrap
               </p>
             </div>
           </div>

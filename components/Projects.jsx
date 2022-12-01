@@ -19,25 +19,25 @@ const Projects = () => {
           <ProjectItem
             title="Ecommerce Website"
             backgroundImg={ecom}
-            projectUrl="/netflix"
+            projectUrl="/ecommerce"
             tech="MERN Stack Project"
           />
           <ProjectItem
             title="Social Media App"
             backgroundImg={social}
-            projectUrl="/property"
+            projectUrl="/social"
             tech="MERN Stack Project"
           />
           <ProjectItem
             title="Inventory Management System"
             backgroundImg={superSystem}
-            projectUrl="/crypto"
+            projectUrl="/dashboard"
             tech="MERN Stack Project"
           />
           <ProjectItem
             title="Manufacturer Website"
             backgroundImg={manufacturer}
-            projectUrl="/twitch"
+            projectUrl="/manufacturer"
             tech="MERN Stack Project"
           />
         </div>
