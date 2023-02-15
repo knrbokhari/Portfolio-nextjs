@@ -5,6 +5,7 @@ import social from "../public/assets/projects/social.jpg";
 import superSystem from "../public/assets/projects/super-system.jpg";
 import ecom from "../public/assets/projects/ecom.png";
 import manufacturer from "../public/assets/projects/manufacturer.jpg";
+import gym from "../public/assets/projects/gym.png";
 import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
@@ -39,6 +40,12 @@ const Projects = () => {
             backgroundImg={manufacturer}
             projectUrl="/manufacturer"
             tech="MERN Stack Project"
+          />
+          <ProjectItem
+            title="GYM Website"
+            backgroundImg={gym}
+            projectUrl="/gymweb"
+            tech="Front-End Project"
           />
         </div>
       </div>
