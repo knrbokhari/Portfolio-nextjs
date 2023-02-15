@@ -38,7 +38,7 @@ const About = () => {
 
           <p className="my-3">
             <a
-              href="file//Resume of kazi naeem rayhan.pdf"
+              href="Kazi_Naeem_Rayhan_Resume.pdf"
               className="py-3 px-3 bg-violet-600 text-white rounded-2xl"
               download
             >

@@ -19,8 +19,7 @@ const Main = () => {
           <h1 className="py-2 text-gray-700">A Full Stack Developer (MERN)</h1>
           <p className="py-4 text-gray-600 sm:max-w-[70%] m-auto">
             I have intermediate skill in Node, Express, MongoDB, ReactJS, Typescript,
-            MySql, Redux, CI/CD Pipeline, PM2,
-            Git, JavaScript, HTML5, CSS3. I’m currently learning Docker, Python, GraphQL.
+            MySql, Redux,Unit Testing, Git, JavaScript, HTML5, CSS3. I’m currently learning Docker, Python, GraphQL,  CI/CD Pipeline, PM2.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <a
