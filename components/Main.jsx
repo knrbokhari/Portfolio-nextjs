@@ -16,11 +16,11 @@ const Main = () => {
             Hi, I&#39;m{" "}
             <span className="text-[#5651e5]">Kazi Naeem Rayhan</span>
           </h1>
-          <h1 className="py-2 text-gray-700">A MERN Stack Developer</h1>
+          <h1 className="py-2 text-gray-700">A Full Stack Developer (MERN)</h1>
           <p className="py-4 text-gray-600 sm:max-w-[70%] m-auto">
-            I have intermediate skill in Node, Express, MongoDB, ReactJS,
-            Docker, Redux, Mongoose, Typescript, GraphQL, CI/CD Pipeline, PM2,
-            Git, JavaScript, HTML5, CSS3.
+            I have intermediate skill in Node, Express, MongoDB, ReactJS, Typescript,
+            MySql, Redux, CI/CD Pipeline, PM2,
+            Git, JavaScript, HTML5, CSS3. I’m currently learning Docker, Python, GraphQL.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <a
@@ -46,7 +46,7 @@ const Main = () => {
                 <AiOutlineMail />
               </div>
             </Link>
-            <Link href="/resume">
+            <Link href="/">
               <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <BsFillPersonLinesFill />
               </div>

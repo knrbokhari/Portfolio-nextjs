@@ -7,8 +7,8 @@ import Link from 'next/link';
 const netflix = () => {
   return (
     <div className='w-full'>
-      <div className='w-screen- h-[50vh] relative'>
-        <div className='absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10' />
+      <div className='w-screen- h-[30vh] relative'>
+        <div className='absolute top-0 left-0 w-full h-[30vh] bg-black/70 z-10' />
         <Image
           className='absolute z-1'
           layout='fill'
@@ -29,7 +29,7 @@ const netflix = () => {
             <h2>Overview</h2>
             <div>
                 <p className='text-gray-600 py-2 flex items-center'>
-                    <RiRadioButtonFill className='pr-1' /> This website has jwt implemented, email, password, authentication, and a stripe payment system. It has an error log system that stores in MongoDB.
+                    <RiRadioButtonFill className='pr-1' />This website has jwt implemented, email, password, authentication, and a stripe payment system. It has an error log system that stores in MongoDB.
                 </p>
                 <p className='text-gray-600 py-2 flex items-center'>
                     <RiRadioButtonFill className='pr-1' />Users can add items to the cart, change cart quantity, and remove items from the card. it gives users a notification when the order is shipped.
