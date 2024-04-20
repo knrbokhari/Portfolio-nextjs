@@ -8,19 +8,19 @@ const resume = () => {
     <>
       <Head>
         <title>Resume</title>
-        {/* <meta
-          name='description'
-          content='I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences.'
-        /> */}
+        <meta
+          name="description"
+          content="I’m a Full Stack Developer with 1 year of hands-on experience in crafting robust web applications. I have working experience in NodeJs, ExpressJs, Nestjs, MongoDB, TypeScript, JavaScript, ReactJS, Redux, Prisma,  Unit Testing, and other technologies."
+        />
         <link rel='icon' href='/fav.png' />
       </Head>
 
       <div className='max-w-[940px] mx-auto p-2 pt-[120px]'>
         <h2 className='text-center'>Resume</h2>
-        <div className='bg-[#d0d4d6] my-4 p-4 w-full flex justify-between items-center'>
+        <div className='bg-[#d0d4d6]- w-full flex justify-between items-center'>
           <h2 className='text-center'>Kazi Naeem Rayhan</h2>
           <div className='flex'>
-          <a
+            <a
               href="mailto:kazinaeemrayhan@gmail.com"
             >
               <HiMail size={20} style={{ marginRight: '1rem' }} />
@@ -48,84 +48,120 @@ const resume = () => {
             </a>
           </div>
         </div>
-        <div className='text-center py-4 text-xl font-bold uppercase tracking-wider'>
-          <div className='hidden sm:block'>
+        <p className='text-xl font-bold'>
+          Full Stack Development
+        </p>
+        <div className=''>
+          <div className='text-left py-4 pb-2 text-xl font-bold uppercase tracking-wider'>
             <p>
-            Full Stack Development (MERN)
+              Summary
             </p>
           </div>
-          <div className='block sm:hidden'>
-            <p className='py-2'>Web Development</p>
-            <p>Complex Problem Solving</p>
-          </div>
+          <p className='text-justify'>
+            A dynamic and passionate Full Stack Developer with 1 year of hands-on experience in crafting robust web applications. I have working experience in NodeJs, ExpressJs, Nestjs, MongoDB, JavaScript, TypeScript, ReactJS, Redux, Prisma,  Unit Testing, and other technologies. I am eager to contribute my skills to a forward-thinking team and take on new challenges in the ever-evolving landscape of technology.
+          </p>
         </div>
-        <p>
-          I&apos;m a full Stack Web Developer (MERN).  I have intermediate skills in Node, Express, MongoDB, React, Unit Testing, MySql and other technologies. I am a capable and adaptable person looking forward to learning new techniques to gain experience that can be used in a career in the future.
-        </p>
 
         {/* Skills */}
-        <div className='text-center py-4'>
-          <h5 className='text-center underline text-[18px] py-2'>Skills</h5>
-          <p className='py-2'>
-            <span className='font-bold'>Comfortable:</span>
-            <span className='px-2'></span> Node.js
-            <span className='px-2'>|</span> Express
-            <span className='px-2'>|</span> MongoDB
-            <span className='px-2'>|</span> React.js
-            <span className='px-2'>|</span> TypeScript
-            <span className='px-2'>|</span> Next JS
-            <span className='px-2'>|</span> MySQL
-            <span className='px-2'>|</span> Unit Testing
+        <div className='text-left pt-4'>
+          <h5 className='text-left uppercase text-[18px] py-2'>Skills</h5>
+
+          <p className='pb-1'>
+            <span className='font-bold'>Font-End:</span>
+            <span className='pl-2'></span> React.js
+            <span className='pl-2'>|</span> Next.js
             <span className='px-2'>|</span> Redux
-            <span className='px-2'>|</span> Logger
-            <span className='px-2'>|</span> JWT
-            <span className='px-2'>|</span> JavaScript
-            <span className='px-2'>|</span> Stripe
+            <span className='px-2'>|</span> TypeScript
+            <span className='px-2'>|</span> Javascript
+            <span className='px-2'>|</span> Tailwind CSS
             <span className='px-2'>|</span> MUI
-            <span className='px-2'>|</span> Tailwind
-            <span className='px-2'>|</span> Firebase
-            <span className='px-2'>|</span> RESTAPI
+            <span className='px-2'>|</span> Bootstrap
+            <span className='px-2'>|</span> CSS
+            <span className='px-2'>|</span> SEO
           </p>
-          <p className='py-2'>
-            <span className='font-bold'>Familiar:</span>
-            <span className='px-2'></span> OOP
-            <span className='px-2'>|</span> Debugging
-            <span className='px-2'>|</span> Socket.IO
+          <p className='pb-1'>
+            <span className='font-bold'>Back-End:</span>
+            <span className='px-2'></span> Node.js
+            <span className='px-2'>|</span> Nest.js
+            <span className='px-2'>|</span> Express
+            <span className='px-2'>|</span> JWT
+            <span className='px-2'>|</span> Unit Testing
+            <span className='px-2'>|</span> S3
+            <span className='px-2'>|</span> API Documentation
+            <span className='px-2'>|</span> Logger
+            <span className='px-2'>|</span> Socket.io
             <span className='px-2'>|</span> CI/CD Pipeline
-            <span className='px-2'>|</span> Docker
-            <span className='px-2'>|</span> API Doc
-            <span className='px-2'>|</span> Python
+            <span className='px-2'>|</span> OOP
           </p>
-          <p className='py-2'>
-            <span className='font-bold'>Other:</span>
-            <span className='px-2'></span> Linux
-            <span className='px-2'>|</span> Git
-            <span className='px-2'>|</span> Figma
+          <p className='pb-1'>
+            <span className='font-bold'>Database:</span>
+            <span className='px-2'></span> MongoDB
+            <span className='px-2'>|</span> PostgreSQL
+            <span className='px-2'>|</span> MySQL
+            <span className='px-2'>|</span> Prisma
+          </p>
+          <p className='pb-1'>
+            <span className='font-bold'>Tool:</span>
+            <span className='px-2'></span> Docker
+            <span className='px-2'>|</span> Linux
+            <span className='px-2'>|</span> Stripe
+            <span className='px-2'>|</span> Nginx
+            <span className='px-2'>|</span> PM2
+            <span className='px-2'>|</span> Termius
             <span className='px-2'>|</span> Postman
-            <span className='px-2'>|</span> Heroku
+            <span className='px-2'>|</span> Git
+            <span className='px-2'>|</span> GitHub
+            <span className='px-2'>|</span> Slack
+            <span className='px-2'>|</span> Jira
             <span className='px-2'>|</span> Vercel
             <span className='px-2'>|</span> Render
-            <span className='px-2'>|</span> Cloudinary
-            <span className='px-2'>|</span> Jira
-            <span className='px-2'>|</span> Slack
+            <span className='px-2'>|</span> Figma
+          </p>
+          <p className='pb-1'>
+            <span className='font-bold'>Other Skills:</span>
+            <span className='px-2'></span> Data Structures
+            <span className='px-2'>|</span> Algorithms
+            <span className='px-2'>|</span> SOLID Principles
+            <span className='px-2'>|</span>  Problem-Solving
+            <span className='px-2'>|</span>  Debugging.
           </p>
         </div>
 
-        <h5 className='text-center underline text-[18px] py-4'>
-        PROJECT
+        {/* Experience */}
+        <h5 className='text-left uppercase text-[18px] pt-4'>
+          Professional Experience
         </h5>
+        <div className=''>
+          <p className='italic'>
+            <span className='font-bold'>Full Stack Developer</span>
+            <span className='px-2'>|</span> 
+            <a target="_blank" href="https://ejanani.com/" className='font-bold text-[blue]' rel="noreferrer">Ejanani</a>
+          </p>
+          <p className='py-1 italic'>Remote ( Mar 2023 – Present)</p>
+          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+            <li className='cursor-default'>Collaborated with cross-functional teams to gather and refine requirements, ensuring the seamless enhancement of existing systems and the successful implementation of new features.</li>
+            <li className='cursor-default'>Optimized application performance on both the front-end and back-end, utilizing advanced profiling and performance-tuning techniques to ensure fast response times and smooth user interactions.</li>
+            <li className='cursor-default'>Enhanced query performance by implementing efficient data retrieval strategies and optimizing database schema designs.</li>
+            <li className='cursor-default'>Designed and maintained database schemas using PostgreSQL and Prisma, ensuring data integrity, and scalability.</li>
+            <li className='cursor-default'>Ensuring uninterrupted service and improved user experience.</li>
+          </ul>
+        </div>
+
         {/* PROJECT */}
-        <div className='py-6'>
+        <h5 className='text-left uppercase text-[18px] pt-4'>
+          PROJECT
+        </h5>
+        <div className=''>
           <p className='italic'>
             <span className='font-bold italic'>
-            Ecommerce Website
+              Ecommerce Website
             </span>
             <span className='ml-2 font-bold text-[blue]'>
-             <a target="_blank" href="https://github.com/knrbokhari/mern-ecommerce" rel="noreferrer">GitHub link</a>
+              <a target="_blank" href="https://github.com/knrbokhari/mern-ecommerce" rel="noreferrer">GitHub link</a>
             </span>
             <span className='px-2'>|</span>
             <span className='ml-2 font-bold text-[blue]'>
-             <a target="_blank" href="https://quiet-cat-ecom.netlify.app/" rel="noreferrer">Live Website</a>
+              <a target="_blank" href="https://quiet-cat-ecom.netlify.app/" rel="noreferrer">Live Website</a>
             </span>
           </p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
@@ -139,127 +175,95 @@ const resume = () => {
               Admin can update product status and restock, add, and delete products. When users order products then the admin gets a notification from it.
             </li>
           </ul>
-          <p className='py-1 italic'> <span style={{fontWeight: 'bold'}}>Technology Used:</span> ReactJS, Redux, NodeJS, ExpressJS, MongoDB, Mongoose, Winston, Jest, JWT, Stripe,  GitHub, Axios, Bootstrap, React-icons, moment.</p>
+          <p className='py-1 italic'> <span style={{ fontWeight: 'bold' }}>Technology Used:</span> ReactJS, Redux, NodeJS, ExpressJS, MongoDB, Mongoose, Winston, Jest, JWT, Stripe,  GitHub, Axios, Bootstrap, React-icons, moment.</p>
         </div>
 
-        <div className='py-6'>
+        <div className='pt-2'>
           <p className='italic'>
             <span className='font-bold italic'>
-            Social Media App (fuzzy-lamp):
+              Social Media App (fuzzy-lamp):
             </span>
             <span className='ml-2 font-bold text-[blue]'>
-             <a target="_blank" href="https://github.com/knrbokhari/social-media-app-fuzzy-lamp" rel="noreferrer">GitHub link</a>
+              <a target="_blank" href="https://github.com/knrbokhari/social-media-app-fuzzy-lamp" rel="noreferrer">GitHub link</a>
             </span>
             <span className='px-2'>|</span>
             <span className='ml-2 font-bold text-[blue]'>
-             <a target="_blank" href="https://fuzzylamp.netlify.app/" rel="noreferrer">Live Website</a>
+              <a target="_blank" href="https://fuzzylamp.netlify.app/" rel="noreferrer">Live Website</a>
             </span>
           </p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
-            This project has a real-time database implementation. Users can chat with each other.
+              This project has a real-time database implementation. Users can chat with each other.
             </li>
             <li>
-            Users can Follow & UnFollow someone. Users can see someone&apos;s post by following them.
+              Users can Follow & UnFollow someone. Users can see someone&apos;s post by following them.
             </li>
             <li>
-            Users can update their profile picture, cover photo, and their information.
+              Users can update their profile picture, cover photo, and their information.
             </li>
           </ul>
-          <p className='py-1 italic'> <span style={{fontWeight: 'bold'}}>Technology Used:</span> React, Node, Express, MongoDB, Mongoose, Socket.IO, Git, Redux, JWT, Axios.</p>
+          <p className='py-1 italic'> <span style={{ fontWeight: 'bold' }}>Technology Used:</span> React, Node, Express, MongoDB, Mongoose, Socket.IO, Git, Redux, JWT, Axios.</p>
         </div>
 
-        <div className='py-6'>
+        <div className='pt-2'>
           <p className='italic'>
             <span className='font-bold italic'>
-            Inventory management system: 
+              Inventory management system:
             </span>
             <span className='ml-2 font-bold text-[blue]'>
-             <a target="_blank" href="https://github.com/knrbokhari/super-system" rel="noreferrer">Client-Side</a>
-            </span>
-            <span className='px-2'>|</span>
-            <span className='ml-2 font-bold text-[blue]'>
-             <a target="_blank" href="https://github.com/knrbokhari/mern-ecommerce/tree/main/server" rel="noreferrer"> Server-Side</a>
+              <a target="_blank" href="https://github.com/knrbokhari/super-system" rel="noreferrer">Client-Side</a>
             </span>
             <span className='px-2'>|</span>
             <span className='ml-2 font-bold text-[blue]'>
-             <a target="_blank" href="https://supersystem.netlify.app/" rel="noreferrer">Live Website</a>
+              <a target="_blank" href="https://github.com/knrbokhari/mern-ecommerce/tree/main/server" rel="noreferrer"> Server-Side</a>
+            </span>
+            <span className='px-2'>|</span>
+            <span className='ml-2 font-bold text-[blue]'>
+              <a target="_blank" href="https://supersystem.netlify.app/" rel="noreferrer">Live Website</a>
             </span>
           </p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
-            This website uses aggregation in the backend to create 3 types of charts using recharts.            </li>
+              This website uses aggregation in the backend to create 3 types of charts using recharts.            </li>
             <li>
-            Admin can add, update, delete a product, and see all information on this site.
+              Admin can add, update, delete a product, and see all information on this site.
             </li>
           </ul>
-          <p className='py-1 italic'> <span style={{fontWeight: 'bold'}}>Technology Used:</span>ReactJS, NodeJS, ExpressJS, MongoDB, Mongoose,  Redux, JWT, MUI.</p>
+          <p className='py-1 italic'> <span style={{ fontWeight: 'bold' }}>Technology Used:</span>ReactJS, NodeJS, ExpressJS, MongoDB, Mongoose,  Redux, JWT, MUI.</p>
         </div>
 
         {/*  */}
-        <h5 className='text-center underline text-[18px] py-4'>
-        EDUCATION
+        <h5 className='text-left uppercase text-[18px] pt-4'>
+          EDUCATION
         </h5>
-        <div className='py-6'>
+        <div className=''>
+          <p className='italic'>
+            <span className='font-bold'>Bachelor of Science in Computer Science and Engineering</span>
+            <span className='px-2'>|</span>2024 - Running
+          </p>
+          <p className='py-1 italic'>Northern University Bangladesh.</p>
+        </div>
+        <div className=''>
           <p className='italic'>
             <span className='font-bold'>Diploma in Computer Engineering</span>
-            <span className='px-2'>|</span>2016- 2020 
+            <span className='px-2'>|</span>2016 - 2020
           </p>
           <p className='py-1 italic'>Jhenaidah Polytechnic Institute, Jhenaidah</p>
         </div>
-      
-        <h5 className='text-center underline text-[18px] py-4'>
-        LANGUAGE
+
+        <h5 className='text-left uppercase text-[18px] pt-4'>
+          LANGUAGE
         </h5>
-        <div className='py-6'>
+        <div className='mb-9'>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
-            Bangla
+              Bangla
             </li>
             <li>
-            English
+              English
             </li>
           </ul>
         </div>
-
-        {/* <h5 className='text-center underline text-[18px] py-4'>
-          Other Professional Experience
-        </h5>
-        <div className='py-6'>
-          <p className='italic'>
-            <span className='font-bold'>CITY OF SHERMAN, TX</span>
-            <span className='px-2'>|</span>Sherman, TX
-          </p>
-          <p className='py-1 italic'>Paramedic / Firefighter (2010 – 2019)</p>
-          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
-            <li>
-              Ensured proper implementation of firefighting techniques and
-              practices including controlling and extinguishing fires, operating
-              hose lines, and fire ground operations, ventilation, and search
-              and rescue.
-            </li>
-            <li>
-              Oversaw comprehensive understanding, operation, and maintenance of
-              fire engines, ladder trucks, technical rescue apparatus, and
-              response trailers.
-            </li>
-            <li>
-              Performed ALS techniques as needed within emergency situations
-              including the use of an esophageal or dual lumen airway device and
-              oral intubation using laryngoscopy.
-            </li>
-            <li>
-              Collaborated with a talented and high performing team of
-              firefighters in high pressure and stressful situations as needed.
-            </li>
-            <li>
-              Utilized proven and demonstrated knowledge of multiple
-              certifications including Pediatric Advanced Life Support,
-              Prehospital Trauma Life Support, and Advanced Cardiac Life
-              Support, among others.
-            </li>
-          </ul>
-        </div> */}
       </div>
     </>
   );
