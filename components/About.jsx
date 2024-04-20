@@ -26,14 +26,12 @@ const About = () => {
               <span>Email:</span> <span>Kazinaeemrayhan@gmail.com</span>
             </li>
             <li className="d-flex">
-              <span>Phone: </span> <span>+880 1751 449559 </span>
+              <span>Phone: </span> <span>+880 1751 449559 </span>, <span>+880 1855 996557 </span>
             </li>
           </ul>
           <p className="py-2 mt-4 text-gray-600">
-            I am very dedicated and passionate about programming. I am an
-            adaptable person who is looking forward to learning new techniques,
-            skills, and methods in order to gain experience that can be used in
-            a career in the near and distant future.
+            I am eager to contribute my skills to a forward-thinking team and take on new challenges in the ever-evolving landscape of
+            technology.
           </p>
 
           <p className="my-3">

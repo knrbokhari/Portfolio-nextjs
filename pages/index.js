@@ -10,10 +10,10 @@ export default function Home() {
     <div>
       <Head>
         <title>Kazi Naeem Rayhan</title>
-        {/* <meta
+        <meta
           name="description"
-          content="I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences."
-        /> */}
+          content="I’m a Full Stack Developer with 1 year of hands-on experience in crafting robust web applications. I have working experience in NodeJs, ExpressJs, Nestjs, MongoDB, TypeScript, JavaScript, ReactJS, Redux, Prisma,  Unit Testing, and other technologies."
+        />
         <link rel="icon" href="/fav.png" />
       </Head>
       <Main />

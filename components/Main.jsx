@@ -16,10 +16,11 @@ const Main = () => {
             Hi, I&#39;m{" "}
             <span className="text-[#5651e5]">Kazi Naeem Rayhan</span>
           </h1>
-          <h1 className="py-2 text-gray-700">A Full Stack Developer (MERN)</h1>
+          <h1 className="py-2 text-gray-700">A Full Stack Developer</h1>
           <p className="py-4 text-gray-600 sm:max-w-[70%] m-auto">
-            I have intermediate skill in Node, Express, MongoDB, ReactJS, Typescript,
-            MySql, Redux,Unit Testing, Git, JavaScript, HTML5, CSS3. I’m currently learning Docker, Python, GraphQL,  CI/CD Pipeline, PM2.
+            A dynamic and passionate Full Stack Developer with 1 year of hands-on experience in crafting
+            robust web applications. I have working experience in NodeJs, ExpressJs, Nestjs, MongoDB, JavaScript,
+            TypeScript, ReactJS, Redux, Prisma,  Unit Testing, and other technologies.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <a
