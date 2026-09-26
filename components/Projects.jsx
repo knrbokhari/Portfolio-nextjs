@@ -4,6 +4,7 @@ import React from "react";
 import social from "../public/assets/projects/social.jpg";
 import superSystem from "../public/assets/projects/super-system.jpg";
 import ecom from "../public/assets/projects/ecom.png";
+import ai from "../public/assets/projects/content.png";
 import manufacturer from "../public/assets/projects/manufacturer.jpg";
 import gym from "../public/assets/projects/gym.png";
 import ProjectItem from "./ProjectItem";
@@ -17,6 +18,12 @@ const Projects = () => {
         </p>
         <h2 className="py-4">What I&apos;ve Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
+          <ProjectItem
+            title="Sass ContentPilot AI"
+            backgroundImg={ai}
+            projectUrl="/content-pilot-ai"
+            tech="AI Project"
+          />
           <ProjectItem
             title="Ecommerce Website"
             backgroundImg={ecom}

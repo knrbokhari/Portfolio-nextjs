@@ -18,9 +18,16 @@ const Main = () => {
           </h1>
           <h1 className="py-2 text-gray-700">A Full Stack Developer</h1>
           <p className="py-4 text-gray-600 sm:max-w-[70%] m-auto">
-            A dynamic and passionate Full Stack Developer with 1 year of hands-on experience in crafting
-            robust web applications. I have working experience in NodeJs, ExpressJs, Nestjs, MongoDB, JavaScript,
-            TypeScript, ReactJS, Redux, Prisma,  Unit Testing, and other technologies.
+            Full Stack Developer with 2+ years of experience building and
+            launching scalable software, e-commerce, and AI-based web apps.
+            Skilled in creating full-stack solutions using TypeScript, ReactJS,
+            Redux, NodeJS, NestJS, ExpressJS, MongoDB, PostgreSQL, and Prisma
+            from front-end UI through to back-end RESTful APIs, databases,
+            authentication, and payment gateways. Comfortable dealing with
+            clients and collaborating in cross-disciplinary teams to create
+            maintainable software solutions from business requirements.
+            Experience with Docker, Nginx, Linux, Unit Testing Production
+            deployment, and third-party API integration.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <a

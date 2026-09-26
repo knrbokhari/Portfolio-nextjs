@@ -5,11 +5,11 @@ import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 import Head from "next/head";
 
-const manufacturer = () => {
+const ContentPilotAI = () => {
   return (
     <>
       <Head>
-        <title>Manufacturer Website</title>
+        <title>Sass ContentPilot AI</title>
         <meta
           name="description"
           content="Full Stack Developer with 2+ years of experience building and launching scalable software, e-commerce, and AI-based web apps. Skilled in creating full-stack solutions using TypeScript, ReactJS, Redux, NodeJS, NestJS, ExpressJS, MongoDB, PostgreSQL, and Prisma from front-end UI through to back-end RESTful APIs, databases, authentication, and payment gateways. Comfortable dealing with clients and collaborating in cross-disciplinary teams to create maintainable software solutions from business requirements. Experience with Docker, Nginx, Linux, Unit Testing Production deployment, and third-party API integration."
@@ -28,8 +28,11 @@ const manufacturer = () => {
             alt="/"
           />
           <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-            <h2 className="py-2">Manufacturer Website</h2>
-            <h3>React JS / Node JS / Express / MomgoDB</h3>
+            <h2 className="py-2">Sass ContentPilot AI</h2>
+            <h3>
+              Next JS / Node JS / Nest Js / Postgres / Prisma / Docker /
+              Stripe{" "}
+            </h3>
           </div>
         </div>
 
@@ -39,38 +42,61 @@ const manufacturer = () => {
             <h2>Overview</h2>
             <div>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> You can register, login
-                and order anything from this website and it has a card payment
-                system.
+                <RiRadioButtonFill className="pr-1" /> Designed and developed a
+                multi-tenant SaaS platform for analyzing website pages and
+                generating AI-powered website improvement recommendations.
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> It has a Dashboard for
-                admin and user. User can view his order, cancel the order,
-                update his profile and leave a comment.
+                <RiRadioButtonFill className="pr-1" /> Implemented
+                organization-based architecture with separate administrative and
+                organization-level dashboards.
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> admin add new product,
-                update product, delete product, see all users and make someone
-                admin.
+                <RiRadioButtonFill className="pr-1" /> Implemented audit scoring
+                across categories including SEO, content, readability,
+                accessibility, performance, and technical quality.
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> Designed organization
+                team management, role-based access control, audit history,
+                subscription plans, and reporting workflows.
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> Planned AI-powered
+                features including recommendations, content generation,
+                competitor analysis, and conversational website analysis.
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> Implemented Stripe
+                Payment & Subscription Systems
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> Implemented
+                Authentication & dynamic Role-Based Access Control (RBAC)
+              </p>
+
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> AI-Powered Application
+                Development
               </p>
             </div>
 
             <a
-              href="https://github.com/knrbokhari/manufacturer-website-client-V2"
+              href="https://github.com/knrbokhari/AI-Content-Audit-SaaS"
               target="_blank"
               rel="noreferrer"
             >
               <button className="px-8 py-2 mt-4 mr-8">Client</button>
             </a>
             <a
-              href="https://github.com/knrbokhari/manufacturer-server-side-V2"
+              href="https://github.com/knrbokhari/AI-Content-Audit-SaaS-api"
               target="_blank"
               rel="noreferrer"
             >
               <button className="px-8 py-2 mt-4 mr-8">Server</button>
             </a>
             <a
-              href="https://manufacturer-25224.web.app/"
+              href="https://ai-content-audit-saa-s.vercel.app"
               target="_blank"
               rel="noreferrer"
             >
@@ -88,19 +114,19 @@ const manufacturer = () => {
                   <RiRadioButtonFill className="pr-1" /> NodeJS
                 </p>
                 <p className="text-gray-600 py-2 flex items-center">
-                  <RiRadioButtonFill className="pr-1" /> ExpressJS
+                  <RiRadioButtonFill className="pr-1" /> NestJS
                 </p>
                 <p className="text-gray-600 py-2 flex items-center">
-                  <RiRadioButtonFill className="pr-1" /> MongoDB
+                  <RiRadioButtonFill className="pr-1" /> PostgresSQL
                 </p>
                 <p className="text-gray-600 py-2 flex items-center">
-                  <RiRadioButtonFill className="pr-1" /> Firebase
+                  <RiRadioButtonFill className="pr-1" /> Docker
                 </p>
                 <p className="text-gray-600 py-2 flex items-center">
                   <RiRadioButtonFill className="pr-1" /> Tailwind
                 </p>
                 <p className="text-gray-600 py-2 flex items-center">
-                  <RiRadioButtonFill className="pr-1" /> Axios
+                  <RiRadioButtonFill className="pr-1" /> Open AI API
                 </p>
                 <p className="text-gray-600 py-2 flex items-center">
                   <RiRadioButtonFill className="pr-1" /> JWT
@@ -117,4 +143,4 @@ const manufacturer = () => {
   );
 };
 
-export default manufacturer;
+export default ContentPilotAI;

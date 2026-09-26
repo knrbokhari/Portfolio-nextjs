@@ -13,9 +13,9 @@ export default function Home() {
         <title>Kazi Naeem Rayhan</title>
         <meta
           name="description"
-          content="I’m a Full Stack Developer with 1 year of hands-on experience in crafting robust web applications. I have working experience in NodeJs, ExpressJs, Nestjs, MongoDB, TypeScript, JavaScript, ReactJS, Redux, Prisma,  Unit Testing, and other technologies."
+          content="Full Stack Developer with 2+ years of experience building and launching scalable software, e-commerce, and AI-based web apps. Skilled in creating full-stack solutions using TypeScript, ReactJS, Redux, NodeJS, NestJS, ExpressJS, MongoDB, PostgreSQL, and Prisma from front-end UI through to back-end RESTful APIs, databases, authentication, and payment gateways. Comfortable dealing with clients and collaborating in cross-disciplinary teams to create maintainable software solutions from business requirements. Experience with Docker, Nginx, Linux, Unit Testing Production deployment, and third-party API integration."
         />
-        <link rel="icon" href="/fav.png" />
+        <link rel="icon" href="/logo.webp" />
       </Head>
       <Main />
       <About />

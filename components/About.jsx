@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import AboutImg from "../public/assets/profile.jpg";
+import AboutImg from "../public/assets/pro.jpg";
 
 const About = () => {
   return (
@@ -26,7 +26,7 @@ const About = () => {
               <span>Email:</span> <span>Kazinaeemrayhan@gmail.com</span>
             </li>
             <li className="d-flex">
-              <span>Phone: </span> <span>+880 1751 449559 </span>, <span>+880 1855 996557 </span>
+              <span>Phone: </span> <span>+880 1751 449559 </span>
             </li>
           </ul>
           <p className="py-2 mt-4 text-gray-600">

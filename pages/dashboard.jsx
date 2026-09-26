@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import ecommerce from '../public/assets/bg.avif';
+import ecommerce from '../public/assets/bg.webp';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
