@@ -1,44 +1,5 @@
 import Image from "next/image";
 import React from "react";
-import Html from "../public/assets/skills/html.png";
-import Css from "../public/assets/skills/css.png";
-import Javascript from "../public/assets/skills/javascript.png";
-import ReactImg from "../public/assets/skills/react.png";
-import Tailwind from "../public/assets/skills/tailwind.png";
-import Github from "../public/assets/skills/github1.png";
-import Firebase from "../public/assets/skills/firebase.png";
-import NextJS from "../public/assets/skills/nextjs.png";
-import Redux from "../public/assets/skills/redux.png";
-import Mongo from "../public/assets/skills/mongo.png";
-import Docker from "../public/assets/skills/docker.png";
-import Node from "../public/assets/skills/node.png";
-import GraphQL from "../public/assets/skills/graphQL.png";
-import Linux from "../public/assets/skills/linux.png";
-import Bootstrap from "../public/assets/skills/bootstrap.png";
-import Typescript from "../public/assets/skills/typescript.png";
-import Mui from "../public/assets/skills/mui.png";
-import Express from "../public/assets/skills/express.png";
-import Socket from "../public/assets/skills/socket.png";
-import Aws from "../public/assets/skills/aws.png";
-import Prisma from "../public/assets/skills/prisma.png";
-import Terminus from "../public/assets/skills/termius.jpeg";
-import Postman from "../public/assets/skills/postman.png";
-import PM2 from "../public/assets/skills/pm2.png";
-import Postgresql from "../public/assets/skills/postgresql.png";
-import Nest from "../public/assets/skills/nest.svg";
-import Nginx from "../public/assets/skills/nginx.svg";
-import DataStructure from "../public/assets/skills/data-structure.png";
-import Python from "../public/assets/skills/Python.svg";
-import Django from "../public/assets/skills/django.png";
-import Redis from "../public/assets/skills/Redis.png";
-import Jest from "../public/assets/skills/Jest.png";
-import Stripe from "../public/assets/skills/Stripe.png";
-import Bkash from "../public/assets/skills/bkash.jpg";
-import SSLCommerz from "../public/assets/skills/SSLCommerz.png";
-import AI from "../public/assets/skills/artificial-intelligence.png";
-import GPT from "../public/assets/skills/gpt.png";
-import Openai from "../public/assets/skills/openai.png";
-import Claude from "../public/assets/skills/claude.png";
 
 const Skills = () => {
   return (
@@ -52,7 +13,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image src={Node} width="64px" height="64px" alt="/" />
+                <Image src="/assets/skills/node.png" width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Node.Js</h3>
@@ -62,7 +23,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image src={Express} width="64px" height="64px" alt="/" />
+                <Image src="/assets/skills/express.png" width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Express.js</h3>
@@ -72,7 +33,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image src={Nest} width="64px" height="64px" alt="/" />
+                <Image src="/assets/skills/nest.svg" width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Nest.Js</h3>
@@ -83,7 +44,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image src={ReactImg} width="64px" height="64px" alt="/" />
+                <Image src="/assets/skills/react.png" width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>React</h3>
@@ -94,7 +55,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image src={Redux} width="64px" height="64px" alt="/" />
+                <Image src="/assets/skills/redux.png" width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Redux</h3>
@@ -105,7 +66,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image src={NextJS} width="64px" height="64px" alt="/" />
+                <Image src="/assets/skills/nextjs.png" width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Next</h3>
@@ -116,7 +77,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image src={Mongo} width="64px" height="64px" alt="/" />
+                <Image src="/assets/skills/mongo.png" width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>MongoDB</h3>
@@ -127,7 +88,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image src={Postgresql} width="64px" height="64px" alt="/" />
+                <Image src="/assets/skills/postgresql.png" width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>PostgreSQL</h3>
@@ -138,7 +99,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image src={Typescript} width="64px" height="64px" alt="/" />
+                <Image src="/assets/skills/typescript.png" width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Typescript</h3>
@@ -148,7 +109,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image src={Javascript} width="64px" height="64px" alt="/" />
+                <Image src="/assets/skills/javascript.png" width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>JavaScript</h3>
@@ -159,7 +120,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image src={Prisma} width="64px" height="64px" alt="/" />
+                <Image src="/assets/skills/prisma.png" width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Prisma</h3>
@@ -170,7 +131,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image src={Docker} width="64px" height="64px" alt="/" />
+                <Image src="/assets/skills/docker.png" width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Docker</h3>
@@ -181,7 +142,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image src={Github} width="64px" height="64px" alt="/" />
+                <Image src="/assets/skills/github1.png" width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Github</h3>
@@ -192,7 +153,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image src={Openai} width="64px" height="64px" alt="/" />
+                <Image src="/assets/skills/openai.png" width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>OpenAI API</h3>
@@ -203,7 +164,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image src={GPT} width="64px" height="64px" alt="/" />
+                <Image src="/assets/skills/gpt.png" width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>ChatGPT</h3>
@@ -214,7 +175,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image src={Claude} width="64px" height="64px" alt="/" />
+                <Image src="/assets/skills/claude.png" width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Claude</h3>
@@ -225,7 +186,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image src={Linux} width="64px" height="64px" alt="/" />
+                <Image src="/assets/skills/linux.png" width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Linux</h3>
@@ -235,7 +196,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image src={Nginx} width="64px" height="64px" alt="/" />
+                <Image src="/assets/skills/nginx.svg" width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Nginx</h3>
@@ -245,7 +206,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image src={PM2} width="64px" height="64px" alt="/" />
+                <Image src="/assets/skills/pm2.png" width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>PM2</h3>
@@ -256,7 +217,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image src={Terminus} width="64px" height="64px" alt="/" />
+                <Image src="/assets/skills/termius.jpeg" width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Termius</h3>
@@ -267,7 +228,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image src={Jest} width="64px" height="64px" alt="/" />
+                <Image src="/assets/skills/Jest.png" width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Jest</h3>
@@ -278,7 +239,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image src={Stripe} width="64px" height="64px" alt="/" />
+                <Image src="/assets/skills/Stripe.png" width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Stripe</h3>
@@ -290,7 +251,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src={Bkash}
+                  src="/assets/skills/bkash.jpg"
                   width="64px"
                   height="64px"
                   alt="/"
@@ -306,7 +267,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto h-[64px] flex items-center">
-                <Image src={SSLCommerz} width="64px" height="25px" alt="/" />
+                <Image src="/assets/skills/SSLCommerz.png" width="64px" height="25px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>SSLCommerz</h3>
@@ -317,7 +278,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image src={Postman} width="64px" height="64px" alt="/" />
+                <Image src="/assets/skills/postman.png" width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Postman</h3>
@@ -328,7 +289,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image src={Firebase} width="64px" height="64px" alt="/" />
+                <Image src="/assets/skills/firebase.png" width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Firebase</h3>
@@ -339,7 +300,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image src={Socket} width="64px" height="64px" alt="/" />
+                <Image src="/assets/skills/socket.png" width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Socket.IO</h3>
@@ -350,7 +311,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image src={Mui} width="64px" height="64px" alt="/" />
+                <Image src="/assets/skills/mui.png" width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>MUI</h3>
@@ -360,7 +321,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image src={Tailwind} width="64px" height="64px" alt="/" />
+                <Image src="/assets/skills/tailwind.png" width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Tailwind</h3>
@@ -370,7 +331,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image src={Bootstrap} width="64px" height="64px" alt="/" />
+                <Image src="/assets/skills/bootstrap.png" width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Bootstrap</h3>
@@ -381,7 +342,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image src={Html} width="64px" height="64px" alt="/" />
+                <Image src="/assets/skills/html.png" width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>HTML</h3>
@@ -391,7 +352,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image src={Css} width="64px" height="64px" alt="/" />
+                <Image src="/assets/skills/css.png" width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>CSS</h3>
@@ -405,7 +366,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image src={Aws} width="64px" height="64px" alt="/" />
+                <Image src="/assets/skills/aws.png" width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>AWS</h3>
@@ -415,7 +376,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image src={DataStructure} width="64px" height="64px" alt="/" />
+                <Image src="/assets/skills/data-structure.png" width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3> Data Structures & Algorithms</h3>
@@ -426,7 +387,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image src={AI} width="64px" height="64px" alt="/" />
+                <Image src="/assets/skills/artificial-intelligence.png" width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Artificial Intelligence</h3>
@@ -437,7 +398,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image src={Redis} width="64px" height="64px" alt="/" />
+                <Image src="/assets/skills/Redis.png" width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Redis</h3>
@@ -448,7 +409,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image src={ReactImg} width="64px" height="64px" alt="/" />
+                <Image src="/assets/skills/react.png" width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>React Native</h3>
@@ -459,7 +420,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image src={GraphQL} width="64px" height="64px" alt="/" />
+                <Image src="/assets/skills/graphQL.png" width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>GraphQL</h3>
@@ -470,7 +431,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image src={Python} width="64px" height="64px" alt="/" />
+                <Image src="/assets/skills/Python.svg" width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Python</h3>
@@ -480,7 +441,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image src={Django} width="64px" height="64px" alt="/" />
+                <Image src="/assets/skills/django.png" width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Django</h3>

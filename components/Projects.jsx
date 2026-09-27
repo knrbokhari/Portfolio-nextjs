@@ -1,12 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import social from "../public/assets/projects/social.jpg";
-import superSystem from "../public/assets/projects/super-system.jpg";
-import ecom from "../public/assets/projects/ecom.png";
-import ai from "../public/assets/projects/content.png";
-import manufacturer from "../public/assets/projects/manufacturer.jpg";
-import gym from "../public/assets/projects/gym.png";
 import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
@@ -20,37 +14,37 @@ const Projects = () => {
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
             title="Sass ContentPilot AI"
-            backgroundImg={ai}
+            backgroundImg="/assets/projects/content.png"
             projectUrl="/content-pilot-ai"
             tech="AI Project"
           />
           <ProjectItem
             title="Ecommerce Website"
-            backgroundImg={ecom}
+            backgroundImg="/assets/projects/ecom.png"
             projectUrl="/ecommerce"
             tech="MERN Stack Project"
           />
           <ProjectItem
             title="Social Media App"
-            backgroundImg={social}
+            backgroundImg="/assets/projects/social.jpg"
             projectUrl="/social"
             tech="MERN Stack Project"
           />
           <ProjectItem
             title="Inventory Management System"
-            backgroundImg={superSystem}
+            backgroundImg="/assets/projects/super-system.jpg"
             projectUrl="/dashboard"
             tech="MERN Stack Project"
           />
           <ProjectItem
             title="Manufacturer Website"
-            backgroundImg={manufacturer}
+            backgroundImg="/assets/projects/manufacturer.jpg"
             projectUrl="/manufacturer"
             tech="MERN Stack Project"
           />
           <ProjectItem
             title="GYM Website"
-            backgroundImg={gym}
+            backgroundImg="/assets/projects/gym.png"
             projectUrl="/gymweb"
             tech="Front-End Project"
           />
